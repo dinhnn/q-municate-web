@@ -2,11 +2,10 @@
 define(function() {
 
     var QMCONFIG = {
-
-        qbAccount: {
-            appId: 36125,
-            authKey: 'gOGVNO4L9cBwkPE',
-            authSecret: 'JdqsMHCjHVYkVxV'
+        qbAccount:{
+            appId: 28783,
+            authKey: 'b5bVGCHHv6rcAmD',
+            authSecret: 'ySwEpardeE7ZXHB'
         },
 
         fbAccount: {
@@ -66,7 +65,11 @@ define(function() {
             chatProtocol: {
                 // BOSH protocol = 1,
                 // WebSocket = 2
-                active: 2
+                active: 1
+            },
+            endpoints: {
+                api: "127.0.0.1:8443", // set custom API endpoint
+                chat: "10.61.191.194" // set custom Chat endpoint
             },
             debug: {
                 mode: 1,
